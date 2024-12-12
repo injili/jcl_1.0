@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 const Layout = () => {
   return (
-    <div className="cursor-pointer bg-neutral-100">
+    <div className="cursor-pointer bg-white">
       <Outlet />
       <Footer />
     </div>
