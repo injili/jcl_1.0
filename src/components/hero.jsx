@@ -54,9 +54,36 @@ export default function Hero() {
 
         <div>
           <ul className="flex flex-wrap items-center font-alata text-white text-sm sm:text-base lg:text-lg xl:text-xl justify-center md:py-12 lg:py-16 xl:py-24 gap-4 md:gap-4 lg:gap-8">
-            <li className="text-center">ABOUT US</li>
-            <li className="text-center">OUR PRODUCTS</li>
-            <li className="text-center">OUR CONTACTS</li>
+            <li
+              className="relative text-center transition-all ease-in-out before:transition-[width]
+                      before:ease-in-out before:duration-700 before:absolute before:bg-white
+                      before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
+                      before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out
+                      after:duration-700 after:absolute after:bg-white after:origin-center
+                      after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+            >
+              ABOUT US
+            </li>
+            <li
+              className="relative text-center transition-all ease-in-out before:transition-[width]
+                      before:ease-in-out before:duration-700 before:absolute before:bg-white
+                      before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
+                      before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out
+                      after:duration-700 after:absolute after:bg-white after:origin-center
+                      after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+            >
+              OUR PRODUCTS
+            </li>
+            <li
+              className="relative text-center transition-all ease-in-out before:transition-[width]
+                      before:ease-in-out before:duration-700 before:absolute before:bg-white
+                      before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
+                      before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out
+                      after:duration-700 after:absolute after:bg-white after:origin-center
+                      after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+            >
+              OUR CONTACTS
+            </li>
           </ul>
         </div>
       </div>

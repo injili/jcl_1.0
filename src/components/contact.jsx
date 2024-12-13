@@ -12,7 +12,14 @@ export default function Contact() {
             <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
               EMAIL
             </h5>
-            <p className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg">
+            <p
+              className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg relative transition-all ease-in-out before:transition-[width]
+                      before:ease-in-out before:duration-700 before:absolute before:bg-white
+                      before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
+                      before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out
+                      after:duration-700 after:absolute after:bg-white after:origin-center
+                      after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+            >
               info@jclcopiers.ac.ke
             </p>
           </div>
@@ -20,7 +27,14 @@ export default function Contact() {
             <h5 className="text-secondary md:text-lg lg:text-xl xl:text-2xl font-alata">
               PHONE
             </h5>
-            <p className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg">
+            <p
+              className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg relative transition-all ease-in-out before:transition-[width]
+                      before:ease-in-out before:duration-700 before:absolute before:bg-white
+                      before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
+                      before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out
+                      after:duration-700 after:absolute after:bg-white after:origin-center
+                      after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+            >
               +254 123 456 789
             </p>
           </div>
