@@ -1,4 +1,4 @@
-import theImage from "../assets/img/cta-bg.jpg";
+import theImage from "../assets/img/cta-bg.avif";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 

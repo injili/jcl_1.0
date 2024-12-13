@@ -1,5 +1,5 @@
 import ream from "../assets/img/ream2.png";
-import heroBg from "../assets/img/hero.jpg";
+import heroBg from "../assets/img/hero.avif";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
