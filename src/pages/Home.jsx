@@ -10,8 +10,8 @@ export default function Home() {
     <div className="bg-white">
       <Hero />
       <About />
-      {/* <Certs />
-      <Faq />
+      <Certs />
+      {/* <Faq />
       <Calltoaction />
       <Contact /> */}
     </div>
