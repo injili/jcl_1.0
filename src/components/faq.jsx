@@ -19,12 +19,13 @@ export default function Faq() {
 
         <p className="font-montserrat text-primary text-lg max-w-[450px]">
           We understand that you may have questions about our 80gsm ream paper
-          and our services. Below, we've compiled answers to the most common
-          inquiries to provide you with a quick and comprehensive resource. If
-          you can't find the information you're looking for, feel free to reach
-          out to our dedicated customer support team through our contacts or
-          call us at +245123456789. We're here to assist you on your journey to
-          discovering the excellence of our paper products.
+          and our services. Below, we&apos;ve compiled answers to the most
+          common inquiries to provide you with a quick and comprehensive
+          resource. If you can&apos;t find the information you&apos;re looking
+          for, feel free to reach out to our dedicated customer support team
+          through our contacts or call us at +245123456789. We&apos;re here to
+          assist you on your journey to discovering the excellence of our paper
+          products.
         </p>
       </div>
       <div className="col-span-2 h-full flex flex-col justify-center pr-24">
@@ -55,7 +56,8 @@ export default function Faq() {
             Certainly! Our 80gsm ream paper is designed for versatility. Whether
             you need it for everyday printing at home, professional documents at
             the office, or creative projects, our paper delivers consistent
-            quality. It's a reliable choice for a wide range of printing needs.
+            quality. It&apos;s a reliable choice for a wide range of printing
+            needs.
           </DisclosurePanel>
         </Disclosure>
         <Disclosure as="div" className="border-b mb-4 border-secondary">
@@ -67,9 +69,9 @@ export default function Faq() {
             className="origin-top transition duration-500 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0 text-primary font-montserrat pb-2"
           >
             Yes, we understand the unique requirements of businesses. We offer
-            bulk orders. Get in touch with our customer support team, and we'll
-            work with you to fulfill your specific needs, ensuring a seamless
-            ordering process.
+            bulk orders. Get in touch with our customer support team, and
+            we&apos;ll work with you to fulfill your specific needs, ensuring a
+            seamless ordering process.
           </DisclosurePanel>
         </Disclosure>
         <Disclosure as="div" className="mb-4">
@@ -80,7 +82,7 @@ export default function Faq() {
             transition
             className="origin-top transition duration-500 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0 text-primary font-montserrat pb-2"
           >
-            We're here to assist you. You can reach our dedicated customer
+            We&apos;re here to assist you. You can reach our dedicated customer
             support team through our contacts, where you can fill out a form
             with your inquiry. Alternatively, you can call us directly at
             +254123456789. We strive to provide prompt and helpful assistance to

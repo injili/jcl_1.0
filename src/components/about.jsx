@@ -63,8 +63,8 @@ export default function About() {
                 </h4>
                 <p className="font-montserrat text-primary text-left text-sm sm:text-base lg:text-lg">
                   Our paper is sourced from responsibly managed forests,
-                  promoting the preservation of our planet's natural resources.
-                  You're making a choice for a greener future.
+                  promoting the preservation of our planet&apos;s natural
+                  resources. You&apos;re making a choice for a greener future.
                 </p>
               </div>
             </div>
