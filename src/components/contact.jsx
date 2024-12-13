@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <div className="bg-primary flex flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12 py-12 p-6 sm:p-8  md:p-16 lg:p-24 xl:p-24">
+    <div
+      id="contact"
+      className="bg-primary flex flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12 py-12 p-6 sm:p-8  md:p-16 lg:p-24 xl:p-24"
+    >
       <div>
         <h4 className="font-alata text-center  font-alata text-xl sm:text-2xl lg:text-3xl xl:text-5xl text-secondary text-center">
           OUR CONTACTS

@@ -5,7 +5,7 @@ import { IoFlowerOutline } from "react-icons/io5";
 
 export default function About() {
   return (
-    <div className="flex min-h-screen justify-center items-center">
+    <div id="about" className="flex min-h-screen justify-center items-center">
       <div className=" bg-white flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-12 lg:gap-16 xl:gap-24 xl:mx-24 py-12 p-6 sm:p-8 md:p-12 lg:p-24">
         <div className="col-span-1 flex flex-col justify-center gap-2 items-left">
           <h2 className="font-alata text-center md:text-left text-sm sm:text-base lg:text-lg text-primary">
