@@ -10,10 +10,10 @@ export default function Home() {
     <div className="bg-white">
       <Hero />
       <About />
-      <Certs />
+      {/* <Certs />
       <Faq />
       <Calltoaction />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
