@@ -34,10 +34,11 @@ export default function Hero() {
               WE ARE JCL COPIERS
             </h2>
             <p className="text-center md:text-left text-sm sm:text-base text-secondary font-montserrat xl:max-w-[596px] lg:text-lg">
-              Lorem ipsum dolor sit amet, consrrr aSuspendisse rhoncus metus et
-              ante dictum tempus. Nulla pulvinar libero ut iaculis interdum.
-              Vestibulum nec condimentudisi. Mauris id sapien libero ut iaculis
-              interdum. Vestibulum nec condimentudisi. Mauris id sapien dui.
+              We take pride in providing top-tier paper products, carefully
+              crafted to meet all your needs with precision and quality. From
+              everyday essentials to specialized items, our diverse range
+              ensures that you find the perfect solution for any project or
+              purpose.
             </p>
             <ul className="flex items-center justify-center md:justify-start font-alata text-white gap-2 sm:gap-4 lg:gap-6 xl:gap-8">
               <li className="text-center text-lg sm:text-xl lg:text-2xl xl:text-4xl">
