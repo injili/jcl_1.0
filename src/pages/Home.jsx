@@ -12,8 +12,8 @@ export default function Home() {
       <About />
       <Certs />
       <Faq />
-      {/* <Calltoaction />
-      <Contact /> */}
+      <Calltoaction />
+      <Contact />
     </div>
   );
 }

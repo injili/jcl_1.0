@@ -1,40 +1,53 @@
 export default function Contact() {
   return (
-    <div className="bg-primary p-24">
-      <h4 className="font-alata text-6xl mb-24 text-secondary text-center">
-        OUR CONTACTS
-      </h4>
+    <div className="bg-primary flex flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12 py-12 p-6 sm:p-8  md:p-16 lg:p-24 xl:p-24">
+      <div>
+        <h4 className="font-alata text-center  font-alata text-xl sm:text-2xl lg:text-3xl xl:text-5xl text-secondary text-center">
+          OUR CONTACTS
+        </h4>
+      </div>
       <div className="grid grid-cols-2 w-full">
-        <div className="col-span-1 p-12 flex flex-col gap-4 border-r border-white">
+        <div className="col-span-1 pr-4 md:pr-8 lg:pr-12 flex flex-col gap-4 border-r border-white">
           <div className="flex flex-col gap-2 items-end gap-2">
-            <h5 className="text-secondary text-3xl font-alata">EMAIL</h5>
-            <p className="text-lg text-white font-montserrat">
+            <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
+              EMAIL
+            </h5>
+            <p className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg">
               info@jclcopiers.ac.ke
             </p>
           </div>
           <div className="flex flex-col gap-2 items-end">
-            <h5 className="text-secondary text-3xl font-alata">PHONE</h5>
-            <p className="text-lg text-white font-montserrat">
+            <h5 className="text-secondary md:text-lg lg:text-xl xl:text-2xl font-alata">
+              PHONE
+            </h5>
+            <p className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg">
               +254 123 456 789
             </p>
           </div>
           <div className="flex flex-col gap-2 items-end">
-            <h5 className="text-secondary text-3xl font-alata">ADDRESS</h5>
-            <p className="text-lg text-white font-montserrat text-right">
-              NAIROBI, <br />
+            <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
+              ADDRESS
+            </h5>
+            <p className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg text-right">
               MOMBASA ROAD,
-              <br /> LANGATA DISTRICT, <br /> P.O BOX 1017 NYAYO STADIUM
+              <br /> LANGATA DISTRICT, <br /> P.O BOX 1017, <br /> NAIROBI.
             </p>
           </div>
         </div>
-        <div className="col-span-1 flex flex-col justify-center gap-2 p-12">
-          <h5 className="text-secondary text-3xl font-alata">COMPANY</h5>
-          <p className="text-lg text-white font-montserrat">Refund Policy</p>
-          <p className="text-lg text-white font-montserrat">Privacy Policy</p>
-          <p className="text-lg text-white font-montserrat">
+        <div className="col-span-1 pl-4 md:pl-8 lg:pl-12 flex flex-col justify-center gap-2">
+          <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
+            COMPANY
+          </h5>
+          <p className="font-montserrat text-white text-sm sm:text-base lg:text-lg">
+            Refund Policy
+          </p>
+          <p className="font-montserrat text-white text-sm sm:text-base lg:text-lg">
+            Privacy Policy
+          </p>
+          <p className="font-montserrat text-white text-sm sm:text-base lg:text-lg">
             Terms and Conditions
           </p>
-          <p className="text-lg text-white font-montserrat">
+          <p className="font-montserrat text-white text-sm sm:text-base lg:text-lg">
             Lisense and Copyright
           </p>
         </div>
