@@ -1,5 +1,7 @@
 import ream from "../assets/img/ream2.png";
-import heroBg from "../assets/img/hero.avif";
+import heroXL from "../assets/img/hero_1200.avif";
+import heroMD from "../assets/img/hero_700.avif";
+import heroSM from "../assets/img/hero_300.avif";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -8,9 +10,10 @@ import { HashLink as Link } from "react-router-hash-link";
 export default function Hero() {
   return (
     <div
-      className="min-h-screen"
+      className="bg-primary min-h-screen"
       style={{
-        backgroundImage: `url(${heroBg})`,
+        backgroundImage: `
+      url(${heroXL})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
