@@ -15,7 +15,9 @@ export default function Contact() {
             <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
               EMAIL
             </h5>
-            <p
+            <a
+              href="mailto:info@jclcopiers.ac.ke"
+              aria-label="Send an email to info@jclcopiers.ac.ke"
               className="font-montserrat text-white text-right text-sm sm:text-base lg:text-lg relative transition-all ease-in-out before:transition-[width]
                       before:ease-in-out before:duration-700 before:absolute before:bg-white
                       before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%]
@@ -24,10 +26,10 @@ export default function Contact() {
                       after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
             >
               info@jclcopiers.ac.ke
-            </p>
+            </a>
           </div>
           <div className="flex flex-col gap-2 items-end">
-            <h5 className="text-secondary md:text-lg lg:text-xl xl:text-2xl font-alata">
+            {/* <h5 className="text-secondary md:text-lg lg:text-xl xl:text-2xl font-alata">
               PHONE
             </h5>
             <p
@@ -39,7 +41,7 @@ export default function Contact() {
                       after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
             >
               +254 123 456 789
-            </p>
+            </p> */}
           </div>
           <div className="flex flex-col gap-2 items-end">
             <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
@@ -51,7 +53,7 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        <div className="col-span-1 pl-4 md:pl-8 lg:pl-12 flex flex-col justify-center gap-2">
+        {/* <div className="col-span-1 pl-4 md:pl-8 lg:pl-12 flex flex-col justify-center gap-2">
           <h5 className="text-secondary  md:text-lg lg:text-xl xl:text-2xl  font-alata">
             COMPANY
           </h5>
@@ -67,7 +69,7 @@ export default function Contact() {
           <p className="font-montserrat text-white text-sm sm:text-base lg:text-lg">
             Lisense and Copyright
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

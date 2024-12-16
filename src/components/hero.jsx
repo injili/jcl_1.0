@@ -43,7 +43,7 @@ export default function Hero() {
               ensures that you find the perfect solution for any project or
               purpose.
             </p>
-            <ul className="flex items-center justify-center md:justify-start font-alata text-white gap-2 sm:gap-4 lg:gap-6 xl:gap-8">
+            {/* <ul className="flex items-center justify-center md:justify-start font-alata text-white gap-2 sm:gap-4 lg:gap-6 xl:gap-8">
               <li className="text-center text-lg sm:text-xl lg:text-2xl xl:text-4xl">
                 <FaFacebook />
               </li>
@@ -53,7 +53,7 @@ export default function Hero() {
               <li className="text-center text-lg sm:text-2xl xl:text-4xl">
                 <FaInstagram />
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 

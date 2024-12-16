@@ -34,7 +34,7 @@ export default function About() {
                   continually evolve, providing you with cutting-edge solutions.
                 </p>
               </div>
-              <div className="row-span-2 h-full flex py-4 md:py-6 pr-4 md:pr-4 lg:pr-8 xl:pr-12 flex-col gap-2 justify-center items-end border-r border-primary">
+              <div className="row-span-2 h-full flex py-4 md:py-6 pr-4 md:pr-4 lg:pr-8 xl:pr-12 flex-col gap-2 justify-center items-end border-r border-t border-primary">
                 <BsBalloonHeart className="text-5xl text-primary mb-4" />
                 <h4 className="text-secondary text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-4xl font-alata">
                   Customer Centric
@@ -56,7 +56,7 @@ export default function About() {
                   providing you with a superior paper product.
                 </p>
               </div>
-              <div className="row-span-3 h-full flex py-4 md:py-6 pl-4 md:pl-4 lg:pl-8 xl:pl-12 flex-col gap-2 justify-center border-l border-primary">
+              <div className="row-span-3 h-full flex py-4 md:py-6 pl-4 md:pl-4 lg:pl-8 xl:pl-12 flex-col gap-2 justify-center border-l border-t border-primary">
                 <IoFlowerOutline className="text-5xl text-primary mb-4" />
                 <h4 className="text-secondary text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-4xl font-alata">
                   Environmental
